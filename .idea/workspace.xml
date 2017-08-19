@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0901f16-922e-41d7-843a-f340acff5c9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todos/templates/add.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/templates/partials/header.html" afterPath="$PROJECT_DIR$/todos/templates/partials/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/urls.py" afterPath="$PROJECT_DIR$/todos/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/views.py" afterPath="$PROJECT_DIR$/todos/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -377,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503091806985</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added 'Add' route">
+      <created>1503185749519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1503185749519</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
