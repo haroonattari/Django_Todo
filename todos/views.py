@@ -3,6 +3,7 @@ from django.http import HttpResponse
 
 from .models import Todo
 
+
 # Create your views here.
 def index(request):
     todos = Todo.objects.all()[:10]
@@ -12,17 +13,15 @@ def index(request):
     }
     return render(request, 'index.html', context)
 
+
 def details(request, id):
     todo = Todo.objects.get(id=id)
-
-    print(todo.title)
-    print(todo.text)
-    print(todo.created_at)
 
     context = {
         'todo': todo
     }
     return render(request, 'details.html', context)
+
 
 def add(request):
     if(request.method == "POST"):
@@ -35,3 +34,11 @@ def add(request):
         return redirect('/todos')
     else:
         return render(request, 'add.html')
+
+
+def delete(request, id):
+    todo = Todo.objects.get(id=id)
+
+    todo.delete()
+
+    return redirect('/todos')
